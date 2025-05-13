@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>For You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="box" id="box">
+      <div class="item">
+        <div class="box1">
+          <p>Masukin nama kamu yaa...</p>
+          <input type="text" onchange="inputName()" placeholder="please input your name" id="nameInput">
+        </div>
+      </div>
+      <div class="item">
+        <div class="box2">
+          <p id="slide1"></p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box3">
+          <p id="slide2"></p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box5" id="box5">
+          <p>mau lanjut?</p>
+          <button id="nolak">Engga</button>
+          <button id="mau">Mauu</button>
+        </div>
+      </div>
+    </div>
+    <!---Element Popup--->
+    <div id="blurBg" class="blur-bg">
+    <div id="popupBox" class="popup">
+      <div class="close" onclick="closePopup()">×</div>
+      <h2></h2>
+      <p id="textPopup"></p>
+    </div>
+  </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
