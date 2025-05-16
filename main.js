@@ -45,7 +45,7 @@ function inputName(){
     target.scrollIntoView({ behavior: "smooth", inline: "center" });  // <-- Ini yang menggeser
     currentIndex++;
       let name = nameInput.value;
-    let teks = `Happy Birthday ${name}!!, Hari ini adalah hari spesial untukmu. Semoga kamu selalu diberi kesehatan, umur panjang, dan kebahagiaan tanpa batas. Jangan pernah berhenti bermimpi dan tetap jadi versi terbaik dari dirimu!`;
+    let teks = `Hai ${name}👋, Maaf ya kalau aku pernah bikin kamu kecewa, salah paham, atau ngerasa nggak dihargai. Aku sadar mungkin ada hal-hal yang nggak aku tangkep dengan baik, atau cara aku ngomong dan bersikap kurang tepat.`;
     let teks2 = 'Maaf, aku nggak bisa ngasih apa-apa hari ini, cuma ucapan sederhana ini. Terima kasih sudah jadi teman yang selalu bisa diajak ngobrol, bercanda, atau diam bareng tanpa canggung. Aku harap semua hal baik datang ke kamu, satu per satu, tanpa perlu kamu minta.';
     let angka = 0;
     function typingEffect(){
